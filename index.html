@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Сайт портфолио">
+    <meta name="keywords" content="portfolio, rustamgadjiev, design, development, front-end">
+    <meta name="Author" content="Рустам Гаджиев">
+
+    <link rel="icon" href="img/favicon.ico" type="image/ico">
+
+    <title>rustamgadjiev</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <script src="js/wow.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <section class="fullscreen" id="fullscreen">
+            <picture class="fullscreen-img">
+                <source srcset="img/fullscreen-fon.webp" type="image/webp">
+                <img src="img/fullscreen-fon.webp" />
+            </picture>
+            <div class="container">
+                <div class="fullscreen__inner">
+                    <h1 class="fullscreen__title">Привет, я <br> Рустам Гаджиев</h1>
+                    <div class="fullscreen__text">Я веб-разработчик</div>
+                    <a href="#content" class="fullscreen__btn">
+                        <img src="img/expand-arrow--v1.webp" />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <header class="header" id="content">
+            <div class="container">
+                <div class="header__inner">
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a class="header__menu-fullscreen link" href="#fullscreen">Главная</a></li>
+                            <li><a class="header__menu-about link" href="#about">Обо мне</a></li>
+                            <li><a class="header__menu-skills link" href="#skills">Навыки</a></li>
+                            <li><a class="header__menu-projects link" href="#projects">Проекты</a></li>
+                            <li><a class="header__menu-path link" href="#path">Мой путь</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="about wow" id="about">
+            <div class="container">
+                <h1 class="about__title wow">Обо мне</h1>
+                <div class="about__content">
+                    Меня зовут Рустам, мне 17 лет, 
+                    живу в Дагестане, 
+                    делаю сайты на HTML / CSS / JS / React, 
+                    готов учиться, 
+                    хочу стать программистом одной из компании
+                </div>
+            </div>
+        </section>
+        <section class="skills wow" id="skills">
+            <div class="container">
+                <h1 class="skills__title wow">Навыки</h1>
+                <div class="skills__content">
+                    <div class="skills__item">
+                        <div class="skills__percent">90%</div>
+                        <picture class="fullscreen-img">
+                            <source srcset="img/html.webp" type="image/webp">
+                            <img src="img/html.webp" />
+                        </picture>
+                        <div class="skills__item-text">
+                            HTML5
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__percent">83%</div>
+                        <picture class="fullscreen-img">
+                            <source srcset="img/css.webp" type="image/webp">
+                            <img src="img/css.webp" />
+                        </picture>
+                        <div class="skills__item-text">
+                            CSS3
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__percent">70%</div>
+                        <picture class="fullscreen-img">
+                            <source srcset="img/sass.webp" type="image/webp">
+                            <img src="img/sass.webp" />
+                        </picture>
+                        <div class="skills__item-text">
+                            SASS/SCSS
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__percent">50%</div>
+                        <picture class="fullscreen-img">
+                            <source srcset="img/git.webp" type="image/webp">
+                            <img src="img/git.webp" />
+                        </picture>
+                        <div class="skills__item-text">
+                            Git
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__percent">65%</div>
+                        <picture class="fullscreen-img">
+                            <source srcset="img/js.webp" type="image/webp">
+                            <img src="img/js.webp" />
+                        </picture>
+                        <div class="skills__item-text">
+                            JavaScript
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__percent">40%</div>
+                        <picture class="fullscreen-img">
+                            <source srcset="img/reactjs.webp" type="image/webp">
+                            <img src="img/reactjs.webp" class="react-anim" />
+                        </picture>
+                        <div class="skills__item-text">
+                            React JS
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__percent">10%</div>
+                        <img src="img/redux.png" alt="">
+                        <div class="skills__item-text">
+                            Redux
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects wow" id="projects">
+            <div class="container">
+                <h1 class="projects__title wow">Проекты</h1>
+                <div class="projects__content">
+                    <div class="projects__item">
+                        <div class="projects__item-card">
+                            <div class="projects__item-card-content">
+                                <h2 class="projects__item-card-title">Комплексное закрытие предприятий</h2>
+                                <div class="projects__item-card-text">
+                                    <img src="./img/html.webp" alt="">
+                                    <img src="./img/sass.webp" alt="">
+                                    <img src="./img/js.webp" alt="">
+                                </div>
+                                <a class="projects__item-card-link"
+                                    href="https://rustamgadjiev.github.io/project1/">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="projects__item-img">
+                            <picture class="fullscreen-img">
+                                <source srcset="img/LandingPage1-card.webp" type="image/webp">
+                                <img src="img/LandingPage1-card.webp" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <div class="projects__item-card">
+                            <div class="projects__item-card-content">
+                                <h2 class="projects__item-card-title">Restaurant Landing</h2>
+                                <div class="projects__item-card-text">
+                                    <img src="./img/html.webp" alt="">
+                                    <img src="./img/sass.webp" alt="">
+                                    <img src="./img/js.webp" alt="">
+                                </div>
+                                <a class="projects__item-card-link"
+                                    href="https://rustamgadjiev.github.io/project2/">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="projects__item-img">
+                            <picture class="fullscreen-img">
+                                <source srcset="img/LandingPage2-card.webp" type="image/webp">
+                                <img src="img/LandingPage2-card.webp" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="projects__item">
+                        <div class="projects__item-card">
+                            <div class="projects__item-card-content">
+                                <h2 class="projects__item-card-title">React-Blog</h2>
+                                <div class="projects__item-card-text">
+                                    <img src="./img/reactjs.webp" class="react-anim" alt="">
+                                    <img src="./img/redux.png" alt="">
+                                    <img src="./img/js.webp" alt="">
+                                    <img src="./img/sass.webp" alt="">
+                                </div>
+                                <a class="projects__item-card-link"
+                                    href="https://rustamgadjiev-react-blog.netlify.app">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="projects__item-img">
+                            <img src="./img/react-blog.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="path wow" id="path">
+            <div class="container">
+                <div class="path__inner">
+                    <h1 class="path__title">Мой путь</h1>
+                    <div class="path__content">
+                        <span class="strip"></span>
+                        <div class="path__content-item item-right">
+                            <div class="path__content-item-title">2021 Май</div>
+                            <div class="path__content-item-text">Начало изучения HTML/CSS/JS</div>
+                            <div class="reading">
+                                <span>Читать дальше...</span>
+                                <span>Закрыть</span>
+                            </div>
+                        </div>
+                        <div class="path__content-item item-left">
+                            <div class="path__content-item-title">2021 Сентябрь-Октябрь</div>
+                            <div class="path__content-item-text">
+                                Записался на курсы по Front-end разработке на ReactJS
+                            </div>
+                            <div class="reading">
+                                <span>Читать дальше...</span>
+                                <span>Закрыть</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a href="tel:89887834737" class="footer__phone">+7(988)783-47-37</a>
+                    <a href="mailto:rustamgadjiev@list.ru" class="footer__email">rustamgadjiev@list.ru</a>
+                    <div class="footer__contacts">
+                        <a href="https://t.me/rustamgadjiev" class="telegram">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="38" height="38"
+                                viewBox="0 0 30 30">
+                                <path
+                                    d="M 25.154297 3.984375 C 24.829241 3.998716 24.526384 4.0933979 24.259766 4.2011719 C 24.010014 4.3016357 23.055766 4.7109106 21.552734 5.3554688 C 20.048394 6.0005882 18.056479 6.855779 15.931641 7.7695312 C 11.681964 9.5970359 6.9042108 11.654169 4.4570312 12.707031 C 4.3650097 12.746607 4.0439208 12.849183 3.703125 13.115234 C 3.3623292 13.381286 3 13.932585 3 14.546875 C 3 15.042215 3.2360676 15.534319 3.5332031 15.828125 C 3.8303386 16.121931 4.144747 16.267067 4.4140625 16.376953 C 5.3912284 16.775666 8.4218473 18.015862 8.9941406 18.25 C 9.195546 18.866983 10.29249 22.222526 10.546875 23.044922 C 10.714568 23.587626 10.874198 23.927519 11.082031 24.197266 C 11.185948 24.332139 11.306743 24.45034 11.453125 24.542969 C 11.511635 24.579989 11.575789 24.608506 11.640625 24.634766 L 11.644531 24.636719 C 11.659471 24.642719 11.67235 24.652903 11.6875 24.658203 C 11.716082 24.668202 11.735202 24.669403 11.773438 24.677734 C 11.925762 24.726927 12.079549 24.757812 12.216797 24.757812 C 12.80196 24.757814 13.160156 24.435547 13.160156 24.435547 L 13.181641 24.419922 L 16.191406 21.816406 L 19.841797 25.269531 C 19.893193 25.342209 20.372542 26 21.429688 26 C 22.057386 26 22.555319 25.685026 22.875 25.349609 C 23.194681 25.014192 23.393848 24.661807 23.478516 24.21875 L 23.478516 24.216797 C 23.557706 23.798129 26.921875 6.5273437 26.921875 6.5273438 L 26.916016 6.5507812 C 27.014496 6.1012683 27.040303 5.6826405 26.931641 5.2695312 C 26.822973 4.8564222 26.536648 4.4608905 26.181641 4.2480469 C 25.826669 4.0352506 25.479353 3.9700339 25.154297 3.984375 z M 24.966797 6.0742188 C 24.961997 6.1034038 24.970391 6.0887279 24.962891 6.1230469 L 24.960938 6.1347656 L 24.958984 6.1464844 C 24.958984 6.1464844 21.636486 23.196371 21.513672 23.845703 C 21.522658 23.796665 21.481573 23.894167 21.439453 23.953125 C 21.379901 23.91208 21.257812 23.859375 21.257812 23.859375 L 21.238281 23.837891 L 16.251953 19.121094 L 12.726562 22.167969 L 13.775391 17.96875 C 13.775391 17.96875 20.331562 11.182109 20.726562 10.787109 C 21.044563 10.471109 21.111328 10.360953 21.111328 10.251953 C 21.111328 10.105953 21.035234 10 20.865234 10 C 20.712234 10 20.506484 10.14875 20.396484 10.21875 C 18.963383 11.132295 12.671823 14.799141 9.8515625 16.439453 C 9.4033769 16.256034 6.2896636 14.981472 5.234375 14.550781 C 5.242365 14.547281 5.2397349 14.548522 5.2480469 14.544922 C 7.6958673 13.491784 12.47163 11.434667 16.720703 9.6074219 C 18.84524 8.6937992 20.838669 7.8379587 22.341797 7.1933594 C 23.821781 6.5586849 24.850125 6.1218894 24.966797 6.0742188 z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/rustamgadjiev" class="github">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="38" height="38"
+                                viewBox="0 0 30 30">
+                                <path
+                                    d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://vk.com/id469180087" class="vk">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="38" height="38"
+                                viewBox="0 0 48 48">
+                                <path
+                                    d="M 5.4355469 10.957031 C 3.1940971 10.957031 1.4873184 13.161086 2.1054688 15.328125 C 3.7149365 20.976871 6.1008234 26.508318 9.6621094 30.857422 C 13.223395 35.206526 18.039918 38.358951 24.199219 38.984375 C 26.249401 39.19239 28.017578 37.521139 28.017578 35.494141 L 28.017578 31.447266 C 28.017578 31.194748 28.190043 31.015308 28.386719 31.009766 C 28.423139 31.008896 28.452253 31.007813 28.470703 31.007812 C 29.178043 31.007812 30.631501 31.893981 31.908203 33.271484 C 33.184905 34.648988 34.314098 36.354273 34.857422 37.298828 L 34.857422 37.300781 C 35.472179 38.36767 36.617685 39.011719 37.835938 39.011719 L 42.708984 39.011719 C 45.135955 39.013519 46.759978 36.271923 45.572266 34.148438 C 43.707529 30.813171 39.987356 27.514403 38.126953 25.869141 C 41.535533 22.126008 43.795468 18.046772 44.796875 15.341797 C 45.552594 13.298086 43.994375 10.998047 41.796875 10.998047 L 38.318359 10.998047 C 36.806296 10.998047 35.396532 11.734785 34.820312 12.914062 C 32.113082 18.46169 29.699958 20.499254 28 21.966797 L 28 14.439453 C 28 12.561528 26.441788 11.013274 24.570312 11.009766 L 18.478516 11 C 16.538627 10.9976 15.335757 13.393494 16.498047 14.947266 L 17.673828 16.521484 L 17.675781 16.525391 C 17.877299 16.791881 17.984375 17.111197 17.984375 17.439453 L 17.984375 17.441406 L 18.007812 23.71875 C 15.584865 21.163426 12.952504 15.750557 12.158203 13.335938 L 12.158203 13.333984 C 11.694311 11.923494 10.359752 10.971123 8.8867188 10.966797 L 8.8847656 10.966797 L 5.4375 10.957031 L 5.4355469 10.957031 z M 5.4355469 13.957031 L 8.8789062 13.966797 C 9.0905592 13.967299 9.246215 14.081502 9.3085938 14.271484 C 10.294883 17.27072 12.886252 22.985249 16.171875 26.185547 C 17.025083 27.016776 18.277358 27.185277 19.248047 26.791016 C 20.218736 26.396755 21.009766 25.37501 21.009766 24.175781 L 21.009766 24.173828 L 20.984375 17.439453 C 20.984375 16.45867 20.663301 15.504844 20.074219 14.722656 L 20.072266 14.71875 L 19.535156 14.001953 L 24.564453 14.009766 C 24.827025 14.010278 25 14.181378 25 14.439453 L 25 22.042969 C 25 24.477717 28.066371 25.876634 29.910156 24.285156 L 29.912109 24.285156 C 31.602179 22.825279 34.592869 20.21974 37.515625 14.230469 C 37.583405 14.091748 37.524425 13.998047 38.318359 13.998047 L 41.796875 13.998047 C 41.999375 13.998047 42.058703 14.094497 41.982422 14.300781 C 41.131592 16.59902 38.960826 20.606819 35.742188 24.074219 C 34.750126 25.143099 34.79055 26.909155 35.912109 27.902344 C 37.670254 29.457435 41.507421 33.025544 42.953125 35.611328 C 43.085413 35.847842 42.985964 36.011922 42.710938 36.011719 L 37.835938 36.011719 C 37.668189 36.011719 37.530274 35.929849 37.457031 35.802734 C 36.807355 34.673289 35.615923 32.857918 34.109375 31.232422 C 32.602827 29.606926 30.809363 28.007812 28.470703 28.007812 C 28.404443 28.007812 28.350188 28.008705 28.308594 28.009766 L 28.304688 28.009766 L 28.302734 28.009766 C 26.44141 28.062226 25.017578 29.641784 25.017578 31.447266 L 25.017578 35.494141 C 25.017578 35.805142 24.777771 36.027985 24.501953 36 C 19.178253 35.459424 15.165636 32.844427 11.982422 28.957031 C 8.7992078 25.069635 6.5257666 19.895114 4.9902344 14.505859 C 4.9043844 14.204898 5.0889964 13.957031 5.4355469 13.957031 z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
