@@ -308,6 +308,7 @@ body {
 .skills {
     padding: 50px 0;
     background-color: $color1;
+    color: $color4;
 
     &.animated {
         .skills__content {
@@ -321,51 +322,33 @@ body {
         }
     }
 
-    &__percent {
-        width: 60px;
-        height: 60px;
-        position: absolute;
-        color: $color4;
-        right: 15px;
-        top: 10px;
-        background-color: rgba(128, 128, 128, 0.5);
-        border: 3px solid;
-        border-radius: 50%;
-        @include font(700, 1.2em);
-        @include flex(center, center);
-        user-select: none;
-        z-index: 1;
-    }
-
     &__title {
         @include sectionTitle();
     }
 
-    &__content {
-        @include flex(center, "");
-        gap: 100px;
-        opacity: 0;
-        transform: translateX(-30%);
-        flex-wrap: wrap;
-        transition-duration: 1.5s;
-        transition-delay: 0.1s;
+    &__content{
+        display: flex;
+        justify-content: space-around;
     }
 
-    &__item {
-        max-width: 300px;
-        position: relative;
-
-        img {
-            width: 200px;
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 10px;
+    &__languages,
+    &__dev-tools,
+    &__design{
+        h2{
+            margin-bottom: 20px;
         }
+    }
 
-        &-text {
-            color: $color4;
-            text-align: center;
-            padding: 0px 30px;
+    &-item + &-item{
+        margin-top: 5px;
+    }
+
+    &-item{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img{
+            width: 35px;
         }
     }
 }

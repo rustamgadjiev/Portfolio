@@ -21,25 +21,6 @@ navLinks.forEach(e => {
     })
 });
 
-const skillsPercent = document.querySelectorAll('.skills__percent');
-skillsPercent.forEach((item) => {
-    let itemValue = parseInt(item.innerHTML);
-    if (itemValue <= 40) {
-        item.style.backgroundColor = 'rgba(255, 81, 0, 0.6)';
-        item.style.borderColor = 'rgb(255, 81, 0)';
-    } else if (itemValue <= 66) {
-        item.style.backgroundColor = 'rgba(255, 153, 0, 0.6)';
-        item.style.borderColor = 'rgb(255, 153, 0)';
-    } else if (itemValue == 100) {
-        item.style.color = 'gold';
-        item.style.backgroundColor = 'rgba(0, 0, 255, 0.6)';
-        item.style.borderColor = 'rgb(0, 0, 255)';
-    } else {
-        item.style.backgroundColor = 'rgba(123, 255, 0, 0.6)';
-        item.style.borderColor = 'rgb(123, 255, 0)';
-    }
-});
-
 const sections = document.querySelectorAll('section[id]');
 const fullscreenImgSrc = document.querySelector(`section[id=fullscreen] .fullscreen-img img`).getAttribute('src');
 const fullscreenWebpSrc = document.querySelector(`section[id=fullscreen] .fullscreen-img source`).getAttribute('srcset');
