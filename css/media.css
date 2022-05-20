@@ -66,6 +66,22 @@
     .projects__content {
         grid-template-columns: repeat(1, 1fr);
     }
+    .skills__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills__content div + div{
+        margin-top: 40px;
+    }
+    .skills__languages,
+    .skills__dev-tools,
+    .skills__design{
+        text-align: center;
+    }
+    .skills__content div{
+        width: 200px;
+        padding-left: 20px;
+    }
 }
 @media (max-width: 650px) {
     .path__content-item {
